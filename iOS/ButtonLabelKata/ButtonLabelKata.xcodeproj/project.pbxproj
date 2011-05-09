@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BAD21D91378885900620AE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAD21D81378885900620AE6 /* UIKit.framework */; };
+		8BAD21DB1378885900620AE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAD21DA1378885900620AE6 /* Foundation.framework */; };
+		8BAD21DD1378885900620AE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAD21DC1378885900620AE6 /* CoreGraphics.framework */; };
+		8BAD21E31378885900620AE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD21E11378885900620AE6 /* InfoPlist.strings */; };
+		8BAD21E61378885900620AE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD21E51378885900620AE6 /* main.m */; };
+		8BAD21E91378885900620AE6 /* ButtonLabelKataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD21E81378885900620AE6 /* ButtonLabelKataAppDelegate.m */; };
+		8BAD21EC1378885900620AE6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD21EA1378885900620AE6 /* MainWindow.xib */; };
+		8BAD21EF1378885900620AE6 /* ButtonLabelKataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD21EE1378885900620AE6 /* ButtonLabelKataViewController.m */; };
+		8BAD21F21378885900620AE6 /* ButtonLabelKataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD21F01378885900620AE6 /* ButtonLabelKataViewController.xib */; };
+		8BAD21F91378885900620AE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAD21D81378885900620AE6 /* UIKit.framework */; };
+		8BAD21FA1378885900620AE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAD21DA1378885900620AE6 /* Foundation.framework */; };
+		8BAD21FB1378885900620AE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAD21DC1378885900620AE6 /* CoreGraphics.framework */; };
+		8BAD22031378885900620AE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD22011378885900620AE6 /* InfoPlist.strings */; };
+		8BAD22061378885900620AE6 /* ButtonLabelKataTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD22051378885900620AE6 /* ButtonLabelKataTests.h */; };
+		8BAD22081378885900620AE6 /* ButtonLabelKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD22071378885900620AE6 /* ButtonLabelKataTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BAD21FC1378885900620AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BAD21CB1378885900620AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAD21D31378885900620AE6;
+			remoteInfo = ButtonLabelKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BAD21D41378885900620AE6 /* ButtonLabelKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonLabelKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAD21D81378885900620AE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BAD21DA1378885900620AE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BAD21DC1378885900620AE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BAD21E01378885900620AE6 /* ButtonLabelKata-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonLabelKata-Info.plist"; sourceTree = "<group>"; };
+		8BAD21E21378885900620AE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BAD21E41378885900620AE6 /* ButtonLabelKata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonLabelKata-Prefix.pch"; sourceTree = "<group>"; };
+		8BAD21E51378885900620AE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BAD21E71378885900620AE6 /* ButtonLabelKataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonLabelKataAppDelegate.h; sourceTree = "<group>"; };
+		8BAD21E81378885900620AE6 /* ButtonLabelKataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonLabelKataAppDelegate.m; sourceTree = "<group>"; };
+		8BAD21EB1378885900620AE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8BAD21ED1378885900620AE6 /* ButtonLabelKataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonLabelKataViewController.h; sourceTree = "<group>"; };
+		8BAD21EE1378885900620AE6 /* ButtonLabelKataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonLabelKataViewController.m; sourceTree = "<group>"; };
+		8BAD21F11378885900620AE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ButtonLabelKataViewController.xib; sourceTree = "<group>"; };
+		8BAD21F81378885900620AE6 /* ButtonLabelKataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonLabelKataTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAD22001378885900620AE6 /* ButtonLabelKataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonLabelKataTests-Info.plist"; sourceTree = "<group>"; };
+		8BAD22021378885900620AE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BAD22041378885900620AE6 /* ButtonLabelKataTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonLabelKataTests-Prefix.pch"; sourceTree = "<group>"; };
+		8BAD22051378885900620AE6 /* ButtonLabelKataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonLabelKataTests.h; sourceTree = "<group>"; };
+		8BAD22071378885900620AE6 /* ButtonLabelKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonLabelKataTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BAD21D11378885900620AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAD21D91378885900620AE6 /* UIKit.framework in Frameworks */,
+				8BAD21DB1378885900620AE6 /* Foundation.framework in Frameworks */,
+				8BAD21DD1378885900620AE6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAD21F41378885900620AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAD21F91378885900620AE6 /* UIKit.framework in Frameworks */,
+				8BAD21FA1378885900620AE6 /* Foundation.framework in Frameworks */,
+				8BAD21FB1378885900620AE6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BAD21C91378885900620AE6 = {
+			isa = PBXGroup;
+			children = (
+				8BAD21DE1378885900620AE6 /* ButtonLabelKata */,
+				8BAD21FE1378885900620AE6 /* ButtonLabelKataTests */,
+				8BAD21D71378885900620AE6 /* Frameworks */,
+				8BAD21D51378885900620AE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BAD21D51378885900620AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD21D41378885900620AE6 /* ButtonLabelKata.app */,
+				8BAD21F81378885900620AE6 /* ButtonLabelKataTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BAD21D71378885900620AE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD21D81378885900620AE6 /* UIKit.framework */,
+				8BAD21DA1378885900620AE6 /* Foundation.framework */,
+				8BAD21DC1378885900620AE6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BAD21DE1378885900620AE6 /* ButtonLabelKata */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD21E71378885900620AE6 /* ButtonLabelKataAppDelegate.h */,
+				8BAD21E81378885900620AE6 /* ButtonLabelKataAppDelegate.m */,
+				8BAD21EA1378885900620AE6 /* MainWindow.xib */,
+				8BAD21ED1378885900620AE6 /* ButtonLabelKataViewController.h */,
+				8BAD21EE1378885900620AE6 /* ButtonLabelKataViewController.m */,
+				8BAD21F01378885900620AE6 /* ButtonLabelKataViewController.xib */,
+				8BAD21DF1378885900620AE6 /* Supporting Files */,
+			);
+			path = ButtonLabelKata;
+			sourceTree = "<group>";
+		};
+		8BAD21DF1378885900620AE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD21E01378885900620AE6 /* ButtonLabelKata-Info.plist */,
+				8BAD21E11378885900620AE6 /* InfoPlist.strings */,
+				8BAD21E41378885900620AE6 /* ButtonLabelKata-Prefix.pch */,
+				8BAD21E51378885900620AE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BAD21FE1378885900620AE6 /* ButtonLabelKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD22051378885900620AE6 /* ButtonLabelKataTests.h */,
+				8BAD22071378885900620AE6 /* ButtonLabelKataTests.m */,
+				8BAD21FF1378885900620AE6 /* Supporting Files */,
+			);
+			path = ButtonLabelKataTests;
+			sourceTree = "<group>";
+		};
+		8BAD21FF1378885900620AE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD22001378885900620AE6 /* ButtonLabelKataTests-Info.plist */,
+				8BAD22011378885900620AE6 /* InfoPlist.strings */,
+				8BAD22041378885900620AE6 /* ButtonLabelKataTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BAD21D31378885900620AE6 /* ButtonLabelKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAD220B1378885900620AE6 /* Build configuration list for PBXNativeTarget "ButtonLabelKata" */;
+			buildPhases = (
+				8BAD21D01378885900620AE6 /* Sources */,
+				8BAD21D11378885900620AE6 /* Frameworks */,
+				8BAD21D21378885900620AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonLabelKata;
+			productName = ButtonLabelKata;
+			productReference = 8BAD21D41378885900620AE6 /* ButtonLabelKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BAD21F71378885900620AE6 /* ButtonLabelKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAD220E1378885900620AE6 /* Build configuration list for PBXNativeTarget "ButtonLabelKataTests" */;
+			buildPhases = (
+				8BAD21F31378885900620AE6 /* Sources */,
+				8BAD21F41378885900620AE6 /* Frameworks */,
+				8BAD21F51378885900620AE6 /* Resources */,
+				8BAD21F61378885900620AE6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BAD21FD1378885900620AE6 /* PBXTargetDependency */,
+			);
+			name = ButtonLabelKataTests;
+			productName = ButtonLabelKataTests;
+			productReference = 8BAD21F81378885900620AE6 /* ButtonLabelKataTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BAD21CB1378885900620AE6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8BAD21CE1378885900620AE6 /* Build configuration list for PBXProject "ButtonLabelKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BAD21C91378885900620AE6;
+			productRefGroup = 8BAD21D51378885900620AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BAD21D31378885900620AE6 /* ButtonLabelKata */,
+				8BAD21F71378885900620AE6 /* ButtonLabelKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BAD21D21378885900620AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAD21E31378885900620AE6 /* InfoPlist.strings in Resources */,
+				8BAD21EC1378885900620AE6 /* MainWindow.xib in Resources */,
+				8BAD21F21378885900620AE6 /* ButtonLabelKataViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAD21F51378885900620AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAD22031378885900620AE6 /* InfoPlist.strings in Resources */,
+				8BAD22061378885900620AE6 /* ButtonLabelKataTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BAD21F61378885900620AE6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BAD21D01378885900620AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAD21E61378885900620AE6 /* main.m in Sources */,
+				8BAD21E91378885900620AE6 /* ButtonLabelKataAppDelegate.m in Sources */,
+				8BAD21EF1378885900620AE6 /* ButtonLabelKataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAD21F31378885900620AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAD22081378885900620AE6 /* ButtonLabelKataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BAD21FD1378885900620AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BAD21D31378885900620AE6 /* ButtonLabelKata */;
+			targetProxy = 8BAD21FC1378885900620AE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BAD21E11378885900620AE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAD21E21378885900620AE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BAD21EA1378885900620AE6 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAD21EB1378885900620AE6 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8BAD21F01378885900620AE6 /* ButtonLabelKataViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAD21F11378885900620AE6 /* en */,
+			);
+			name = ButtonLabelKataViewController.xib;
+			sourceTree = "<group>";
+		};
+		8BAD22011378885900620AE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAD22021378885900620AE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BAD22091378885900620AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BAD220A1378885900620AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8BAD220C1378885900620AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonLabelKata/ButtonLabelKata-Prefix.pch";
+				INFOPLIST_FILE = "ButtonLabelKata/ButtonLabelKata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BAD220D1378885900620AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonLabelKata/ButtonLabelKata-Prefix.pch";
+				INFOPLIST_FILE = "ButtonLabelKata/ButtonLabelKata-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8BAD220F1378885900620AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ButtonLabelKata.app/ButtonLabelKata";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonLabelKataTests/ButtonLabelKataTests-Prefix.pch";
+				INFOPLIST_FILE = "ButtonLabelKataTests/ButtonLabelKataTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8BAD22101378885900620AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ButtonLabelKata.app/ButtonLabelKata";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonLabelKataTests/ButtonLabelKataTests-Prefix.pch";
+				INFOPLIST_FILE = "ButtonLabelKataTests/ButtonLabelKataTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BAD21CE1378885900620AE6 /* Build configuration list for PBXProject "ButtonLabelKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAD22091378885900620AE6 /* Debug */,
+				8BAD220A1378885900620AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BAD220B1378885900620AE6 /* Build configuration list for PBXNativeTarget "ButtonLabelKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAD220C1378885900620AE6 /* Debug */,
+				8BAD220D1378885900620AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BAD220E1378885900620AE6 /* Build configuration list for PBXNativeTarget "ButtonLabelKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAD220F1378885900620AE6 /* Debug */,
+				8BAD22101378885900620AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BAD21CB1378885900620AE6 /* Project object */;
+}
