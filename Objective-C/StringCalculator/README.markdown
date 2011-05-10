@@ -9,6 +9,8 @@ This Kata is both good TDD and string parsing practice... the goal is to impleme
     [calc add:@"1,-2"] should return -1 
     [calc add:@"1,2,3"] should return 6 
 
+Put your tests in the provided StringCalculatorTests class and your implementation in the StringCalculator class.
+
 Background
 ----------
 Roy Osherove's String Calculator kata: http://osherove.com/tdd-kata-1/ 
