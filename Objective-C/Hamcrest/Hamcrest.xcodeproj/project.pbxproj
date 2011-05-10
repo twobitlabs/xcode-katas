@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BB6932F1379EB3100E741EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB693201379EB3100E741EA /* Cocoa.framework */; };
+		8BB693381379EB3100E741EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BB693361379EB3100E741EA /* InfoPlist.strings */; };
+		8BB6933D1379EB3100E741EA /* HamcrestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB6933C1379EB3100E741EA /* HamcrestTests.m */; };
+		8BB693481379EBA000E741EA /* OCHamcrest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BB693471379EBA000E741EA /* OCHamcrest.framework */; };
+		8BB693551379ED8600E741EA /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB693471379EBA000E741EA /* OCHamcrest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BB693461379EB8700E741EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				8BB693481379EBA000E741EA /* OCHamcrest.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8BB693201379EB3100E741EA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8BB693231379EB3100E741EA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8BB693241379EB3100E741EA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8BB693251379EB3100E741EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BB6932E1379EB3100E741EA /* HamcrestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamcrestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB693351379EB3100E741EA /* HamcrestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HamcrestTests-Info.plist"; sourceTree = "<group>"; };
+		8BB693371379EB3100E741EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BB693391379EB3100E741EA /* HamcrestTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HamcrestTests-Prefix.pch"; sourceTree = "<group>"; };
+		8BB6933C1379EB3100E741EA /* HamcrestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamcrestTests.m; sourceTree = "<group>"; };
+		8BB693471379EBA000E741EA /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrest.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB6932A1379EB3100E741EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB6932F1379EB3100E741EA /* Cocoa.framework in Frameworks */,
+				8BB693551379ED8600E741EA /* OCHamcrest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BB693121379EB3100E741EA = {
+			isa = PBXGroup;
+			children = (
+				8BB693331379EB3100E741EA /* Tests */,
+				8BB6931F1379EB3100E741EA /* Frameworks */,
+				8BB6931E1379EB3100E741EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB6931E1379EB3100E741EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB6932E1379EB3100E741EA /* HamcrestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BB6931F1379EB3100E741EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BB693471379EBA000E741EA /* OCHamcrest.framework */,
+				8BB693201379EB3100E741EA /* Cocoa.framework */,
+				8BB693221379EB3100E741EA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BB693221379EB3100E741EA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BB693231379EB3100E741EA /* AppKit.framework */,
+				8BB693241379EB3100E741EA /* CoreData.framework */,
+				8BB693251379EB3100E741EA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8BB693331379EB3100E741EA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8BB6933C1379EB3100E741EA /* HamcrestTests.m */,
+				8BB693341379EB3100E741EA /* Supporting Files */,
+			);
+			name = Tests;
+			path = HamcrestTests;
+			sourceTree = "<group>";
+		};
+		8BB693341379EB3100E741EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB693351379EB3100E741EA /* HamcrestTests-Info.plist */,
+				8BB693361379EB3100E741EA /* InfoPlist.strings */,
+				8BB693391379EB3100E741EA /* HamcrestTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BB6932D1379EB3100E741EA /* HamcrestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB693431379EB3100E741EA /* Build configuration list for PBXNativeTarget "HamcrestTests" */;
+			buildPhases = (
+				8BB693291379EB3100E741EA /* Sources */,
+				8BB6932A1379EB3100E741EA /* Frameworks */,
+				8BB693461379EB8700E741EA /* CopyFiles */,
+				8BB6932B1379EB3100E741EA /* Resources */,
+				8BB6932C1379EB3100E741EA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamcrestTests;
+			productName = HamcrestTests;
+			productReference = 8BB6932E1379EB3100E741EA /* HamcrestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB693141379EB3100E741EA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8BB693171379EB3100E741EA /* Build configuration list for PBXProject "Hamcrest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BB693121379EB3100E741EA;
+			productRefGroup = 8BB6931E1379EB3100E741EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB6932D1379EB3100E741EA /* HamcrestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB6932B1379EB3100E741EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB693381379EB3100E741EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BB6932C1379EB3100E741EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BB693291379EB3100E741EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB6933D1379EB3100E741EA /* HamcrestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BB693361379EB3100E741EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB693371379EB3100E741EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BB6933E1379EB3100E741EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8BB6933F1379EB3100E741EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8BB693441379EB3100E741EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HamcrestTests/HamcrestTests-Prefix.pch";
+				INFOPLIST_FILE = "HamcrestTests/HamcrestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8BB693451379EB3100E741EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HamcrestTests/HamcrestTests-Prefix.pch";
+				INFOPLIST_FILE = "HamcrestTests/HamcrestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BB693171379EB3100E741EA /* Build configuration list for PBXProject "Hamcrest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB6933E1379EB3100E741EA /* Debug */,
+				8BB6933F1379EB3100E741EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB693431379EB3100E741EA /* Build configuration list for PBXNativeTarget "HamcrestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB693441379EB3100E741EA /* Debug */,
+				8BB693451379EB3100E741EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BB693141379EB3100E741EA /* Project object */;
+}
