@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'StringCalculatorTests' target in the 'StringCalculatorTests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
