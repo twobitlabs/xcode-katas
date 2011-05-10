@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BE40F5B1379BEEF00BB2F29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE40F5A1379BEEF00BB2F29 /* Cocoa.framework */; };
+		8BE40F691379BEEF00BB2F29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE40F5A1379BEEF00BB2F29 /* Cocoa.framework */; };
+		8BE40F6C1379BEEF00BB2F29 /* libStringTokenizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE40F571379BEEF00BB2F29 /* libStringTokenizer.a */; };
+		8BE40F721379BEEF00BB2F29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BE40F701379BEEF00BB2F29 /* InfoPlist.strings */; };
+		8BE40F751379BEEF00BB2F29 /* StringTokenizerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8BE40F741379BEEF00BB2F29 /* StringTokenizerTests.h */; };
+		8BE40F771379BEEF00BB2F29 /* StringTokenizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE40F761379BEEF00BB2F29 /* StringTokenizerTests.m */; };
+		8BE40F821379BF2A00BB2F29 /* StringTokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE40F801379BF2A00BB2F29 /* StringTokenizer.h */; };
+		8BE40F831379BF2A00BB2F29 /* StringTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE40F811379BF2A00BB2F29 /* StringTokenizer.m */; };
+		8BE40F841379BF2A00BB2F29 /* StringTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE40F811379BF2A00BB2F29 /* StringTokenizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BE40F6A1379BEEF00BB2F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BE40F4E1379BEEE00BB2F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BE40F561379BEEE00BB2F29;
+			remoteInfo = StringTokenizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BE40F571379BEEF00BB2F29 /* libStringTokenizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStringTokenizer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE40F5A1379BEEF00BB2F29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8BE40F5D1379BEEF00BB2F29 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8BE40F5E1379BEEF00BB2F29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8BE40F5F1379BEEF00BB2F29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BE40F621379BEEF00BB2F29 /* StringTokenizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StringTokenizer-Prefix.pch"; sourceTree = "<group>"; };
+		8BE40F681379BEEF00BB2F29 /* StringTokenizerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringTokenizerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE40F6F1379BEEF00BB2F29 /* StringTokenizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StringTokenizerTests-Info.plist"; sourceTree = "<group>"; };
+		8BE40F711379BEEF00BB2F29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BE40F731379BEEF00BB2F29 /* StringTokenizerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StringTokenizerTests-Prefix.pch"; sourceTree = "<group>"; };
+		8BE40F741379BEEF00BB2F29 /* StringTokenizerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringTokenizerTests.h; sourceTree = "<group>"; };
+		8BE40F761379BEEF00BB2F29 /* StringTokenizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringTokenizerTests.m; sourceTree = "<group>"; };
+		8BE40F801379BF2A00BB2F29 /* StringTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringTokenizer.h; sourceTree = "<group>"; };
+		8BE40F811379BF2A00BB2F29 /* StringTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringTokenizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BE40F541379BEEE00BB2F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE40F5B1379BEEF00BB2F29 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE40F641379BEEF00BB2F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE40F691379BEEF00BB2F29 /* Cocoa.framework in Frameworks */,
+				8BE40F6C1379BEEF00BB2F29 /* libStringTokenizer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BE40F4C1379BEEE00BB2F29 = {
+			isa = PBXGroup;
+			children = (
+				8BE40F601379BEEF00BB2F29 /* Classes */,
+				8BE40F6D1379BEEF00BB2F29 /* Tests */,
+				8BE40F591379BEEF00BB2F29 /* Frameworks */,
+				8BE40F581379BEEF00BB2F29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BE40F581379BEEF00BB2F29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BE40F571379BEEF00BB2F29 /* libStringTokenizer.a */,
+				8BE40F681379BEEF00BB2F29 /* StringTokenizerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BE40F591379BEEF00BB2F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BE40F5A1379BEEF00BB2F29 /* Cocoa.framework */,
+				8BE40F5C1379BEEF00BB2F29 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BE40F5C1379BEEF00BB2F29 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BE40F5D1379BEEF00BB2F29 /* AppKit.framework */,
+				8BE40F5E1379BEEF00BB2F29 /* CoreData.framework */,
+				8BE40F5F1379BEEF00BB2F29 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8BE40F601379BEEF00BB2F29 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8BE40F611379BEEF00BB2F29 /* Supporting Files */,
+				8BE40F801379BF2A00BB2F29 /* StringTokenizer.h */,
+				8BE40F811379BF2A00BB2F29 /* StringTokenizer.m */,
+			);
+			name = Classes;
+			path = StringTokenizer;
+			sourceTree = "<group>";
+		};
+		8BE40F611379BEEF00BB2F29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BE40F621379BEEF00BB2F29 /* StringTokenizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BE40F6D1379BEEF00BB2F29 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8BE40F741379BEEF00BB2F29 /* StringTokenizerTests.h */,
+				8BE40F761379BEEF00BB2F29 /* StringTokenizerTests.m */,
+				8BE40F6E1379BEEF00BB2F29 /* Supporting Files */,
+			);
+			name = Tests;
+			path = StringTokenizerTests;
+			sourceTree = "<group>";
+		};
+		8BE40F6E1379BEEF00BB2F29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BE40F6F1379BEEF00BB2F29 /* StringTokenizerTests-Info.plist */,
+				8BE40F701379BEEF00BB2F29 /* InfoPlist.strings */,
+				8BE40F731379BEEF00BB2F29 /* StringTokenizerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8BE40F551379BEEE00BB2F29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE40F821379BF2A00BB2F29 /* StringTokenizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8BE40F561379BEEE00BB2F29 /* StringTokenizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE40F7A1379BEEF00BB2F29 /* Build configuration list for PBXNativeTarget "StringTokenizer" */;
+			buildPhases = (
+				8BE40F531379BEEE00BB2F29 /* Sources */,
+				8BE40F541379BEEE00BB2F29 /* Frameworks */,
+				8BE40F551379BEEE00BB2F29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StringTokenizer;
+			productName = StringTokenizer;
+			productReference = 8BE40F571379BEEF00BB2F29 /* libStringTokenizer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8BE40F671379BEEF00BB2F29 /* StringTokenizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE40F7D1379BEEF00BB2F29 /* Build configuration list for PBXNativeTarget "StringTokenizerTests" */;
+			buildPhases = (
+				8BE40F631379BEEF00BB2F29 /* Sources */,
+				8BE40F641379BEEF00BB2F29 /* Frameworks */,
+				8BE40F651379BEEF00BB2F29 /* Resources */,
+				8BE40F661379BEEF00BB2F29 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BE40F6B1379BEEF00BB2F29 /* PBXTargetDependency */,
+			);
+			name = StringTokenizerTests;
+			productName = StringTokenizerTests;
+			productReference = 8BE40F681379BEEF00BB2F29 /* StringTokenizerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BE40F4E1379BEEE00BB2F29 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8BE40F511379BEEE00BB2F29 /* Build configuration list for PBXProject "StringTokenizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BE40F4C1379BEEE00BB2F29;
+			productRefGroup = 8BE40F581379BEEF00BB2F29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BE40F561379BEEE00BB2F29 /* StringTokenizer */,
+				8BE40F671379BEEF00BB2F29 /* StringTokenizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BE40F651379BEEF00BB2F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE40F721379BEEF00BB2F29 /* InfoPlist.strings in Resources */,
+				8BE40F751379BEEF00BB2F29 /* StringTokenizerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BE40F661379BEEF00BB2F29 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BE40F531379BEEE00BB2F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE40F831379BF2A00BB2F29 /* StringTokenizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE40F631379BEEF00BB2F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE40F771379BEEF00BB2F29 /* StringTokenizerTests.m in Sources */,
+				8BE40F841379BF2A00BB2F29 /* StringTokenizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BE40F6B1379BEEF00BB2F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BE40F561379BEEE00BB2F29 /* StringTokenizer */;
+			targetProxy = 8BE40F6A1379BEEF00BB2F29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BE40F701379BEEF00BB2F29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BE40F711379BEEF00BB2F29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BE40F781379BEEF00BB2F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8BE40F791379BEEF00BB2F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8BE40F7B1379BEEF00BB2F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringTokenizer/StringTokenizer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BE40F7C1379BEEF00BB2F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringTokenizer/StringTokenizer-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BE40F7E1379BEEF00BB2F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringTokenizerTests/StringTokenizerTests-Prefix.pch";
+				INFOPLIST_FILE = "StringTokenizerTests/StringTokenizerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8BE40F7F1379BEEF00BB2F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StringTokenizerTests/StringTokenizerTests-Prefix.pch";
+				INFOPLIST_FILE = "StringTokenizerTests/StringTokenizerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BE40F511379BEEE00BB2F29 /* Build configuration list for PBXProject "StringTokenizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE40F781379BEEF00BB2F29 /* Debug */,
+				8BE40F791379BEEF00BB2F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BE40F7A1379BEEF00BB2F29 /* Build configuration list for PBXNativeTarget "StringTokenizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE40F7B1379BEEF00BB2F29 /* Debug */,
+				8BE40F7C1379BEEF00BB2F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BE40F7D1379BEEF00BB2F29 /* Build configuration list for PBXNativeTarget "StringTokenizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BE40F7E1379BEEF00BB2F29 /* Debug */,
+				8BE40F7F1379BEEF00BB2F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BE40F4E1379BEEE00BB2F29 /* Project object */;
+}
