@@ -19,6 +19,11 @@ Submitting New Katas or Bugfixes
 --------------------------------
 Fork the project, make your change on a topic branch, and then send us a pull request on github. Also add your name and URL to the contributors list below and correct/improve our documentation while you're editing this README!
 
+Publishing Your Solutions
+-------------------------
+Fork the project on github, implement your solutions, and push them back
+to your forked version for the world to see. 
+
 Contributors
 ------------
  - [Todd Huss](http://twobitlabs.com/)
